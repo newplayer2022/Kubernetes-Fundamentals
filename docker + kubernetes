@@ -52,3 +52,9 @@ run kubectl cluster-info to check the status if k8s is running correct, showing 
 Kubernetes control plane is running at https://kubernetes.docker.internal:6443
 CoreDNS is running at https://kubernetes.docker.internal:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
+
+kubectl config current-context #get the current context
+kubectl config get-contexts # list all context
+kubectl config use-context [contextName] #set the current context
+kubectl config delete-context[contextName] #delete a contedxt from the config file 
+
