@@ -17,3 +17,21 @@ docker rm #removes stopped containers
 docker rm $(docker ps -a -q) #removes all stopped containers
 docker rmi #delete images 
 docker system prune -a #removes all images not in use by any containers
+
+
+
+
+
+
+
+k8s is the container orchestration tool
+vendor-neutral---runs on al cloud providers
+backed by a huge community
+
+ability
+service discovery and load balancing
+storage orchestration(local or clooud based)
+automated rollouts and rollbacks
+self-healing
+secret and configuration management
+same API  across on-permison and all cloud provider
