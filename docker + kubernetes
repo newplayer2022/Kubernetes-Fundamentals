@@ -1,0 +1,16 @@
+A unit of software /deployment
+code, runtime,system,system library
+
+move faster by deploying smaller units
+usefewer resources
+fit moret into the same host
+faster automation
+portability
+isloation(fail, not taking whole system down)
+made of layers
+
+docker image inspect  #get image info
+docker ps -a # running and stopped containers
+docker ps # running containers
+docker pull/run/start/stop/kill
+docker rm #removes stopped containers 
