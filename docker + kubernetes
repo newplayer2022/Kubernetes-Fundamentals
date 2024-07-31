@@ -14,3 +14,6 @@ docker ps -a # running and stopped containers
 docker ps # running containers
 docker pull/run/start/stop/kill
 docker rm #removes stopped containers 
+docker rm $(docker ps -a -q) #removes all stopped containers
+docker rmi #delete images 
+docker system prune -a #removes all images not in use by any containers
