@@ -35,3 +35,16 @@ automated rollouts and rollbacks
 self-healing
 secret and configuration management
 same API  across on-permison and all cloud provider
+
+pod-node-cluster
+
+run locally
+
+docker desktop
+microk8s
+minikube
+
+over docker desktop #1node
+kind
+
+
