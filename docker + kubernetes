@@ -47,4 +47,8 @@ minikube
 over docker desktop #1node
 kind
 
+run kubectl cluster-info to check the status if k8s is running correct, showing on VS code
+#PS C:\apps> kubectl cluster-info
+Kubernetes control plane is running at https://kubernetes.docker.internal:6443
+CoreDNS is running at https://kubernetes.docker.internal:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
