@@ -58,3 +58,6 @@ kubectl config get-contexts # list all context
 kubectl config use-context [contextName] #set the current context
 kubectl config delete-context[contextName] #delete a contedxt from the config file 
 
+kubectl get namespaces
+kubectl get ns              #get current configured namespaces
+kubectl get pods            #get a list of all the installed pods 
