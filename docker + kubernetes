@@ -25,6 +25,8 @@ docker system prune -a #removes all images not in use by any containers
 
 https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/#install-kubectl-binary-with-curl-on-windows
 k8s is the container orchestration tool
+from google
+a collection of compents centered around deploying, maintain and scaling workloads
 vendor-neutral---runs on al cloud providers
 backed by a huge community
 
