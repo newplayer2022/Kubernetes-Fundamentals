@@ -30,7 +30,7 @@ a collection of compents centered around deploying, maintain and scaling workloa
 vendor-neutral---runs on al cloud providers
 backed by a huge community
 
-ability
+can do
 service discovery and load balancing
 storage orchestration(local or clooud based)
 automated rollouts and rollbacks
