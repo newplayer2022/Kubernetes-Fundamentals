@@ -109,3 +109,27 @@ kube poxy network proxy/manage network rules on nodes
 
 kubectl describe node
 kubectl get nodes
+
+pods 
+atomic unit of the smallest unit of work of k8s
+represents a unit of deployment
+pods can run one or multiple containers
+containers within a pod share ip address space, mountedf volumes,use local host(inside of the pod)
+y7ou dont update a pod, you replace it within an updated version
+
+kubectl creat -f [pod-definition.yml]
+kubectl run [podname] --image=busybox --/bin/sh/ -c "sleep 3600" 
+kubectl get pods
+describe pod [podname]
+exec -it [podname] --sh
+delete -f [podname]
+kubectl get pods -o wide
+
+kubectl exec -it [podname] -c[containername] -- sh   #jump into the one of the container in the pod
+kubectl logs [podname] -c [containername]   #check logs
+
+
+kubectl apply -f [definition.yaml]
+kubectl get rs  #list replicasets
+kubectl describe rs [rsname]
+kubectl delete rs 
