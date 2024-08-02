@@ -68,9 +68,7 @@ kubectl config get-contexts # list all context
 kubectl config use-context [contextName] #set the current context
 kubectl config delete-context[contextName] #delete a contedxt from the config file 
 
-kubectl get namespaces
-kubectl get ns              #get current configured namespaces
-kubectl get pods            #get a list of all the installed pods 
+ 
 
 2ways declarative and imperative
 imperative using kubectl commands, great for learning, testing, and troublshooting
@@ -93,3 +91,8 @@ nginx-deployment   3/3     3            3           20s
 kubectl delete deployment
 kubectl delete deploy
 
+#group 
+kubectl get namespaces
+kubectl get ns              #get current configured namespaces
+kubectl get pods            #get a list of all the installed pods
+kubectl config set-context --curent -- namespace=[namespaceName]
